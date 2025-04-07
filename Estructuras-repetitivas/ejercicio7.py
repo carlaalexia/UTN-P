@@ -5,7 +5,7 @@ num = int(input("Ingrese un numero positivo: "))
 
 suma = 0
 
-for i in range(0, num):
+for i in range(0, num + 1):
     suma += i
 
 print(f"La suma total fue de: {suma}")
