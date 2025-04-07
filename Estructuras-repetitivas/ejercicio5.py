@@ -3,8 +3,8 @@
 
 from random import *
 
-random = randint(0, 30)
-suma = 0
+random = randint(0, 9)
+suma = 1
 
 while True:
     num = int(input("Adivine el numero entre 0 y 9: "))
